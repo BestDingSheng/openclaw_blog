@@ -138,7 +138,7 @@ openclaw gateway start
 你应该看到类似输出：
 ```
 ✓ Gateway started successfully
-✓ Listening on http://localhost:3000
+✓ Listening on http://localhost:3000（本地地址）
 ✓ Telegram bot connected
 ✓ Discord bot connected
 ```
@@ -176,7 +176,7 @@ openclaw message "你好，OpenClaw！"
 
 ### 3. 访问 Web 界面
 
-打开浏览器访问：http://localhost:3000
+打开浏览器访问：http://localhost:3000（本地地址）
 
 你会看到 OpenClaw 的控制面板。
 
@@ -281,4 +281,4 @@ rm -rf ~/.openclaw
 
 ---
 
-遇到问题？查看[故障排除](/guide/troubleshooting)或在 [GitHub Issues](https://github.com/openclaw/openclaw/issues) 提问。
+遇到问题？查看故障排除或在 [GitHub Issues](https://github.com/openclaw/openclaw/issues) 提问。

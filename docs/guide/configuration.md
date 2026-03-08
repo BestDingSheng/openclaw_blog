@@ -348,4 +348,4 @@ openclaw gateway start
 
 ---
 
-需要帮助？查看[常见问题](/guide/faq)或访问[社区论坛](https://openclaw.aialiang.com)。
+需要帮助？查看常见问题或访问[社区论坛](https://openclaw.aialiang.com)。
