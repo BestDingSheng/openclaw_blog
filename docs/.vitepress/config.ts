@@ -5,6 +5,10 @@ export default defineConfig({
   description: 'OpenClaw 入门指南与使用技巧',
   lang: 'zh-CN',
   
+  ignoreDeadLinks: [
+    /^http:\/\/localhost/,
+  ],
+  
   themeConfig: {
     logo: '/logo.png',
     
