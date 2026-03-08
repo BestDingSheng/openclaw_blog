@@ -1,0 +1,26 @@
+{
+  "name": "openclaw_blog",
+  "version": "1.0.0",
+  "description": "OpenClaw 中文博客 - 入门指南与使用技巧",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BestDingSheng/openclaw_blog.git"
+  },
+  "keywords": ["openclaw", "ai", "blog", "tutorial"],
+  "author": "BestDingSheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BestDingSheng/openclaw_blog/issues"
+  },
+  "homepage": "https://github.com/BestDingSheng/openclaw_blog#readme",
+  "devDependencies": {
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.29"
+  }
+}
