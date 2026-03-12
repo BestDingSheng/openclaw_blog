@@ -16,6 +16,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '入门指南', link: '/guide/getting-started' },
       { text: '教程', link: '/tutorial/' },
+      { text: '版本解读', link: '/changelog/2026-3-11' },
       { text: 'GitHub', link: 'https://github.com/openclaw/openclaw' }
     ],
 
@@ -39,6 +40,17 @@ export default defineConfig({
             { text: 'OpenClaw 进阶技巧：30个实战经验', link: '/tutorial/power-user-tips' },
             { text: 'OpenClaw 新手避坑指南', link: '/tutorial/common-pitfalls' },
             { text: 'OpenClaw 生产环境部署指南', link: '/tutorial/production-deployment' }
+          ]
+        }
+      ],
+      '/changelog/': [
+        {
+          text: '版本解读',
+          items: [
+            { text: '2026.3.11 - Hunter & Healer Alpha', link: '/changelog/2026-3-11' },
+            { text: '2026.3.7 - Context Engine 插件', link: '/changelog/2026-3-7' },
+            { text: '2026.3.2 - PDF 分析工具', link: '/changelog/2026-3-2' },
+            { text: '2026.2.26 - 外部密钥管理', link: '/changelog/2026-2-26' }
           ]
         }
       ]
