@@ -10,7 +10,7 @@ export default defineConfig({
   ],
   
   themeConfig: {
-    logo: '/logo.png',
+    logo: '/logo.svg',
     
     nav: [
       { text: '首页', link: '/' },
@@ -34,7 +34,11 @@ export default defineConfig({
         {
           text: '教程',
           items: [
-            { text: '教程列表', link: '/tutorial/' }
+            { text: '教程列表', link: '/tutorial/' },
+            { text: 'OpenClaw 安全配置完全指南', link: '/tutorial/security-guide' },
+            { text: 'OpenClaw 进阶技巧：30个实战经验', link: '/tutorial/power-user-tips' },
+            { text: 'OpenClaw 新手避坑指南', link: '/tutorial/common-pitfalls' },
+            { text: 'OpenClaw 生产环境部署指南', link: '/tutorial/production-deployment' }
           ]
         }
       ]

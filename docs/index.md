@@ -6,7 +6,7 @@ hero:
   text: 中文博客
   tagline: 开源 AI 助手网关 - 入门指南与使用技巧
   image:
-    src: /logo.png
+    src: /logo.svg
     alt: OpenClaw
   actions:
     - theme: brand
