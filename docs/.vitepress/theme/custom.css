@@ -49,6 +49,14 @@
   font-variant-ligatures: common-ligatures;
 }
 
+/* 去除容器圆角 */
+.VPContent,
+.VPDoc,
+.VPHome,
+.container {
+  border-radius: 0 !important;
+}
+
 body {
   font-family: var(--font-body);
   background: var(--space-deep);
